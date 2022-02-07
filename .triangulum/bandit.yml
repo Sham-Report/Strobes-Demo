@@ -10,5 +10,5 @@ triangulum:
     extension_data:
       url: https://github.com/anxolerd/dvpwa.git
       
-  rules:
-    medium: 1
+#  rules:
+#    medium: 1
