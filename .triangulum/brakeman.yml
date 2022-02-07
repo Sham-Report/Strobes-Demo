@@ -10,5 +10,5 @@ triangulum:
     extension_data:
       url: https://github.com/OWASP/railsgoat.git
       
-  rules:
-    high: 1
+#  rules:
+#    high: 1
