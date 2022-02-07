@@ -6,6 +6,9 @@ triangulum:
     analyzer: bandit
     scan_data:
       log: DEBUG
-    extension: local
+    extension: git
     extension_data:
-      path: .
+      url: https://github.com/anxolerd/dvpwa.git
+      
+  rules:
+    medium: 2
