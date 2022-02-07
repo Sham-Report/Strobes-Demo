@@ -8,4 +8,4 @@ triangulum:
       log: DEBUG
     extension: git
     extension_data:
-      path: https://github.com/OWASP/railsgoat.git
+      url: https://github.com/OWASP/railsgoat.git
