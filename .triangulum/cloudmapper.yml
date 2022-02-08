@@ -5,8 +5,8 @@ triangulum:
   options:
     analyzer: cloudmapper
     scan_data:
-      account_id: asdfasdf
+      account_id: 047551908188
       region: ap-south-1
     extension_data:
-      AWSACCESSKEY: adfasdfasdf
-      AWSSECRETACCESSKEY: asdfsadf
+      AWSACCESSKEY: ASIAQWESQRFOEFDRENVB
+      AWSSECRETACCESSKEY: qPGNgQ3g0agUh49C6p9R9zQTNzjFtTkteSuYwZb8
