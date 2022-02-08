@@ -8,5 +8,5 @@ triangulum:
       account_id: 047551908188
       region: ap-south-1
     extension_data:
-      AWSACCESSKEY: 
-      AWSSECRETACCESSKEY: 
+      AWSACCESSKEY: secrets.ACCESSKEY
+      AWSSECRETACCESSKEY: secrets.SECRETKEY
