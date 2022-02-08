@@ -1,0 +1,9 @@
+triangulum:
+  metadata:
+    version: '1.3.0'
+
+  options:
+    analyzer: anchore
+    scan_data:
+      log: DEBUG
+      imagename: docker.elastic.co/logstash/logstash:7.13.3
