@@ -1,0 +1,9 @@
+triangulum:
+  metadata:
+    version: '1.3.0'
+  
+  options:
+    analyzer: flawfinder
+    extension: git
+    extension_data:
+      url: https://github.com/orangeduck/Cello.git
