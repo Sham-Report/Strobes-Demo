@@ -8,5 +8,5 @@ triangulum:
       log: DEBUG
     extension: git
     extension_data:
-      path: https://github.com/sammchardy/python-binance.git
+      url: https://github.com/sammchardy/python-binance.git
       branch: develop
