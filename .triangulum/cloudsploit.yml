@@ -1,0 +1,9 @@
+triangulum:
+  metadata:
+    version: '1.3.0'
+
+  options:
+    analyzer: cloudsploit
+    extension_data:
+      AWS_ACCESS_KEY_ID: secrets.ACCESSKEY
+      AWS_SECRET_ACCESS_KEY: secrets.SECRETKEY
