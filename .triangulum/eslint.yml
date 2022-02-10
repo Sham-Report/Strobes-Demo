@@ -1,0 +1,9 @@
+triangulum:
+  metadata:
+    version: '1.3.0'
+  
+  options:
+    analyzer: eslint
+    extension: git
+    extension_data:
+      url: https://github.com/abdolence/x2js.git
