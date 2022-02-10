@@ -1,0 +1,11 @@
+triangulum:
+  metadata:
+    version: '1.3.0'
+  
+  options:
+    analyzer: nodejsscan
+    scan_data:
+      log: DEBUG   
+    extension: git
+    extension_data:
+      url: https://github.com/contentful/the-example-app.nodejs.git
