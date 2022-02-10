@@ -6,4 +6,7 @@ triangulum:
     analyzer: trivy
     scan_data:
       log: DEBUG
-      target: redis
+      target: redis   #docker pull aquasec/trivy:latest
+    #extension_data:      ==============> for private images
+    #  TRIVY_USERNAME: usn
+    #  TRIVY_PASSWORD: pass
