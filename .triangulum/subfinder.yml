@@ -1,0 +1,9 @@
+triangulum:
+  metadata:
+    version: '1.3.0'
+  
+  options:
+    analyzer: subfinder
+    scan_data:
+      log: DEBUG
+      target: goibibo.com
