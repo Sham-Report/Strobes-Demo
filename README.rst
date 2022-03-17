@@ -255,3 +255,6 @@ TBA
 .. _`dvwa`: http://dvwa.co.uk
 .. _`bobby-tables xkcd comics`: https://xkcd.com/327/
 .. _`Web vulnerabilities`: https://www.slideshare.net/OlexandrKovalchuk/web-vulnerabilities-78366279
+
+username = admin
+password = password
