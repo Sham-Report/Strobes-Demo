@@ -38,3 +38,6 @@ def init(argv):
     setup_routes(app)
 
     return app
+
+AWS_ACCESS_KEY = 'AKIAQWESQRFOQ4KOQAPK'
+AWS_SECRET_KEY = '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'
