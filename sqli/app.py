@@ -40,4 +40,4 @@ def init(argv):
     return app
 
 AWS_ACCESS_KEY = 'AKIAQWESQRFOQ4KOQAPK'
-AWS_SECRET_KEY = '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'
+AWS_SECRET_KEY = 'SDyoOe0/so/muXBufjrQs9wDcFCsE7eGWc/2DWbl'
