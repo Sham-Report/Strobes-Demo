@@ -46,6 +46,10 @@ def gets3():
 def gets4():
     AWS_SECRET_KEY = 'SDyoOe0/so/muXBufjrQs9wDcFCsE30210/2DWbl'
 
+def gets50006():
+    AWS_SECRET_KEY = 'SDyoOe0/so/muXBufjrQs9wDcFCsE50006/2DWbl'
+def gets50007():
+    AWS_SECRET_KEY = 'SDyoOe0/so/muXBufjrQs9wDcFCsE50007/2DWbl'    
 
 AWS_ACCESS_KEY = 'AKIAQWESQRFOQ4KOQAPK'
 AWS_SECRET_KEY = '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'
