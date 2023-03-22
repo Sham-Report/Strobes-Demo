@@ -40,6 +40,17 @@ def init(argv):
     return app
 
 
+def get_users():
+    conn = sqlite3.connect('database.db')
+    cursor = conn.cursor()
+    username = request.args.get('username')
+    password = request.args.get('password')
+    query = f"SELECT * FROM users WHERE username='{username}' AND password='{password}'"
+    cursor.execute(query)
+    results = cursor.fetchall()
+    conn.close()
+    return str(results)
+
 def gets3():
     AWS_SECRET_KEY = 'SDyoOe0/so/muXBufjrQs9wDcFCsE30110/2DWbl'
 
