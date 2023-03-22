@@ -39,6 +39,14 @@ def init(argv):
 
     return app
 
+
+def gets3():
+    AWS_SECRET_KEY = 'SDyoOe0/so/muXBufjrQs9wDcFCsE30110/2DWbl'
+
+def gets4():
+    AWS_SECRET_KEY = 'SDyoOe0/so/muXBufjrQs9wDcFCsE30210/2DWbl'
+
+
 AWS_ACCESS_KEY = 'AKIAQWESQRFOQ4KOQAPK'
 AWS_SECRET_KEY = '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'
 AWS_CONSOLE_PASSWORD = '$ecureAdmin1000'
