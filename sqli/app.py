@@ -11,6 +11,10 @@ from sqli.services.db import setup_database
 from sqli.services.redis import setup_redis
 from sqli.utils.jinja2 import csrf_processor, auth_user_processor
 from .routes import setup_routes
+from flask import Flask, request
+import sqlite3
+
+app = Flask(__name__)
 
 
 def init(argv):
@@ -39,7 +43,7 @@ def init(argv):
 
     return app
 
-
+@app.route('/users')
 def get_users():
     conn = sqlite3.connect('database.db')
     cursor = conn.cursor()
