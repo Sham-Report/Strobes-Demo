@@ -54,3 +54,15 @@ def get_user(username):
     conn.close()
 
     return results
+
+@app.route(/users)
+def get_users(num):
+    conn = sqlite3.connect('database.db')
+    cursor = conn.cursor()
+    username = request.args.get('username')
+    password = request.args.get('password')
+    query = f"SELECT * FROM users WHERE username='{username}' AND password='{password}'"
+    cursor.execute(query)
+    results = cursor.fetchall()
+    conn.close()
+    return str(results)
