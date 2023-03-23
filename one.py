@@ -22,7 +22,7 @@ if __name__ == '__main__':
     app.run(debug=True)
 
     
-os.system(input())
+eval(x+y)
 
 app.run(debug=True)
 app.run(debug=True)
