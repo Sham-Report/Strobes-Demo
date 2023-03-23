@@ -11,6 +11,7 @@ from sqli.services.db import setup_database
 from sqli.services.redis import setup_redis
 from sqli.utils.jinja2 import csrf_processor, auth_user_processor
 from .routes import setup_routes
+import sqlite3
 
 
 def init(argv):
@@ -38,3 +39,18 @@ def init(argv):
     setup_routes(app)
 
     return app
+
+
+
+
+def get_user(username):
+    conn = sqlite3.connect('users.db')
+    cursor = conn.cursor()
+
+    query = f"SELECT * FROM users WHERE username = '{username}'"
+    cursor.execute(query)
+
+    results = cursor.fetchall()
+    conn.close()
+
+    return results
