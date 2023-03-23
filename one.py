@@ -22,7 +22,7 @@ if __name__ == '__main__':
     app.run(debug=True)
 
     
-cmd = 'ping -c 4 {}'.format(host)    
+os.system(input())
 
 app.run(debug=True)
 app.run(debug=True)
