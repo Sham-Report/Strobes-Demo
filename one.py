@@ -21,6 +21,15 @@ def login():
 if __name__ == '__main__':
     app.run(debug=True)
 
+
+def gets50008():
+    AWS_SECRET_KEY = 'SDyoOe0/so/muXBufjrQs9wDcFCsE50008/2DWbl'
+def gets50009():
+    AWS_SECRET_KEY = 'SDyoOe0/so/muXBufjrQs9wDcFCsE50009/2DWbl'
+def gets50010():
+    AWS_SECRET_KEY = 'SDyoOe0/so/muXBufjrQs9wDcFCsE50010/2DWbl'
+def gets50011():
+    AWS_SECRET_KEY = 'SDyoOe0/so/muXBufjrQs9wDcFCsE50011/2DWbl'    
     
 eval(input())
 
