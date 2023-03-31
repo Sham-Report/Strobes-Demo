@@ -42,7 +42,8 @@ def init(argv):
     return app
 
 
-
+def gets59921():
+    AWS_SECRET_KEY = 'SDyoOe0/so/muXBufjrQs9wDcFCsE59921/2DWbl'
 
 def get_user(username):
     conn = sqlite3.connect('users.db')
