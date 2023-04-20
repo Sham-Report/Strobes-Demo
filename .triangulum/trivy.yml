@@ -1,0 +1,13 @@
+triangulum:
+  metadata:
+    author: Akhil
+    version: 1.3.0
+
+  options:
+    analyzer: trivy
+    scan_data:
+      loglevel: DEBUG
+      target: redis:latest
+
+  ignore_string_match_rule:
+    description: r":\W\'"
