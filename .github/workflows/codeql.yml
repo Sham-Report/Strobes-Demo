@@ -78,7 +78,7 @@ jobs:
         
     - name: Check for high or critical issues
       run: |
-        if jq -e '.[] | select(.alertSeverity == "high" or .alertSeverity == "critical")' "${{ steps.codeql-results.outputs.results }}" >/dev/null; then
+        if jq -e '.[] | select(.alertSeverity == "high" or .alertSeverity == "critical")' "${{ github.workspace }}/${{ steps.codeql-results.outputs.results }}" >/dev/null; then
           echo "High or critical issues found. Failing the build."
           exit 1
         fi
