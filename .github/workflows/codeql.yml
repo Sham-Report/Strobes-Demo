@@ -75,3 +75,12 @@ jobs:
       uses: github/codeql-action/analyze@v2
       with:
         category: "/language:${{matrix.language}}"
+        
+    - name: Check for Issues  
+      if: always()   
+      run: |  
+       if grep -q 'critical' results.sarif || grep -q 'high' results.sarif;  
+       then  
+         echo 'CodeQL found issues!'  
+         exit 1   
+       fi 
