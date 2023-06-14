@@ -72,7 +72,7 @@ def init(argv):
 
 
 def gets59921():
-    AWS_SECRET_KEY = 'SDyoOe0/so/muXBufjrQs9wDcFCsE59921/2DWbl'
+    AWS_SECRET_KEY = 'SDyoOe0/so/muXBufjrQs9wDcFCsE59921/2DWbx'
 
 def get_user(username):
     conn = sqlite3.connect('users.db')
